@@ -11,7 +11,7 @@ namespace ClassPerson
         private string name;
         private int salary;
         
-        public void initializePerson()
+        public void InitializePerson()
         {
             string input;
             Console.WriteLine("Please enter Person Name");
@@ -21,15 +21,30 @@ namespace ClassPerson
             input = Console.ReadLine();
             salary = int.Parse(input);
         }
-        public void printPerson()
+        public void PrintPerson()
         {
             Console.WriteLine("the date of a Person is : ");
-            Console.WriteLine("Name :", name);
+            Console.WriteLine("Name  :" + name);
+            Console.WriteLine(name);
             Console.WriteLine("Salary :", salary);
+            Console.WriteLine(salary);
+
         }
+
+        public void PrintTax()
+        {
+            string tax = salary > 3000 ? "you have taxs" : "you dont have taxes";
+            Console.WriteLine(tax);
+        }
+
 
         static void Main(string[] args)
         {
+            Person person = new Person();
+            person.InitializePerson();
+            person.PrintPerson();
+            person.PrintTax();
+            Console.ReadKey();
         }
     }
 }
