@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassPerson", "ClassPerson\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inheritsClass", "inheritsClass\inheritsClass.csproj", "{D2248BAA-946C-483F-8192-6CF2D4A3CC68}"
 EndProject
+<<<<<<< HEAD
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisorderedParameters", "DisorderedParameters\DisorderedParameters.csproj", "{B93E2396-8A03-4014-B6CF-C71D9693CDF6}"
+EndProject
+>>>>>>> feat add class disordedParameters
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +26,13 @@ Global
 		{D2248BAA-946C-483F-8192-6CF2D4A3CC68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2248BAA-946C-483F-8192-6CF2D4A3CC68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2248BAA-946C-483F-8192-6CF2D4A3CC68}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
+=======
+		{B93E2396-8A03-4014-B6CF-C71D9693CDF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B93E2396-8A03-4014-B6CF-C71D9693CDF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B93E2396-8A03-4014-B6CF-C71D9693CDF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B93E2396-8A03-4014-B6CF-C71D9693CDF6}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> feat add class disordedParameters
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
